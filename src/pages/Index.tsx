@@ -11,8 +11,8 @@ import { ContactSection } from "@/components/sections/ContactSection";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+      <main className="bg-[#fff8ef]">
       <Header />
-      <main>
         <HeroSection />
         <MarqueeStripe />
         <AboutSection />

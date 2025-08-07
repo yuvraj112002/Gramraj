@@ -20,9 +20,7 @@ export const AboutSection = () => {
                 alt="Rural landscape with farmers in field"
                 className="rounded-2xl shadow-lg w-full h-auto"
               />
-              <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm rounded-lg px-4 py-2">
-                <p className="font-semibold text-brand-green">This is Gramraj</p>
-              </div>
+           
             </div>
           </ScrollReveal>
 
@@ -43,6 +41,10 @@ export const AboutSection = () => {
               <p className="body-base text-muted-foreground">
                 We innovate, deliver, integrate, sustainability, economy, and the nature-based economy.
               </p>
+
+                 <div className=" bottom-4 left-4 bg-white/90 backdrop-blur-sm rounded-lg px-4 py-2 w-[9rem]">
+                <p className="font-semibold text-brand-green">This is Gramraj</p>
+              </div>
             </div>
           </ScrollReveal>
         </div>

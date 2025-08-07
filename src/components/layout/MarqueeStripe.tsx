@@ -11,7 +11,7 @@ export  function MarqueeStripe() {
   ];
 
   return (
-    <div className="relative w-full overflow-hidden">
+    <div className="relative w-full overflow-hidden mt-[3.75rem]">
       {/* Gradient left blur */}
       <div className="pointer-events-none absolute left-0 top-0 z-10 h-full w-24 bg-gradient-to-r from-white to-transparent"></div>
 
@@ -24,7 +24,7 @@ export  function MarqueeStripe() {
             key={index}
             src={src}
             alt={`logo-${index}`}
-            className="h-full max-h-[12rem] w-auto object-contain "
+            className="h-full max-h-[6rem] w-auto object-contain "
           />
         ))}
       </Marquee>

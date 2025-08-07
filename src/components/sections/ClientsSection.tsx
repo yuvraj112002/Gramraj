@@ -5,17 +5,17 @@ export const ClientsSection = () => {
     { 
       name: "Google", 
       logo: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
-      width: "120px"
+      width: "150px"
     },
     { 
       name: "Microsoft", 
       logo: "gramLogo.avif",
-      width: "140px"
+      width: "170px"
     },
     { 
       name: "Amazon", 
       logo: "worldBankGroup.svg",
-      width: "140px"
+      width: "150px"
     },
     // { 
     //   name: "Meta", 
@@ -30,7 +30,7 @@ export const ClientsSection = () => {
   ];
 
   return (
-    <section id="clients" className="section-tight bg-neutral-50">
+    <section id="clients" className="section-tight bg-[#fff8ef]">
       <div className="container">
         <ScrollReveal animation="fade-up" className="text-center mb-12">
           <h2 className="heading-md text-foreground mb-4">OUR CLIENT</h2>

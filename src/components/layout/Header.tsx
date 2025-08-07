@@ -3,7 +3,7 @@ import { GeometricPattern } from "@/components/ui/geometric-pattern";
 
 export const Header = () => {
   return (
-    <header className="bg-white shadow-sm sticky top-0 z-50">
+    <header className="bg-[#fff8ef] shadow-sm sticky top-0 z-50">
       <div className="container">
         <div className="flex items-center justify-between py-4">
           {/* Logo */}

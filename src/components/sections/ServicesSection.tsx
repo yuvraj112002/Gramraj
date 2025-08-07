@@ -4,32 +4,32 @@ import { Card, CardContent } from "@/components/ui/card";
 export const ServicesSection = () => {
   const services = [
     {
-      number: "5/1",
+      number: "6/1",
       title: "Connectivity Intelligence for Rural Communities",
       description: "For transition, geographical science gives weather, hydrogeographic environment and allows knowledge to be found on weather patterns and science related to lived and done with and people."
     },
     {
-      number: "5/1", 
+      number: "6/2", 
       title: "Digital Infrastructure for Trust & Transparency",
       description: "We process infrastructure systems that integrate blockchain, cloud storage, and machine—changing that agricultural data are secure and efficient."
     },
     {
-      number: "5/1",
+      number: "6/3",
       title: "Data Sovereignty Architecture", 
       description: "We help rural learners receive control over their data disconnecting provision and communication while also empowering them will solutions and present based strategies."
     },
     {
-      number: "5/1",
+      number: "6/4",
       title: "Capacity-Led Commerce",
       description: "Driven trade networks—through broadband, social machines, and enable people to make and value their products and connect directly to their platforms."
     },
     {
-      number: "5/1",
+      number: "6/5",
       title: "Inclusive AI & Behavioural Systems",
       description: "We build systems that focus in rural language networks to cultural landscape, research an agricultural learning, intelligent systems to deliver literacy and presence."
     },
     {
-      number: "5/1", 
+      number: "6/6", 
       title: "Distributed Community Governance",
       description: "We enable one communities to self-organise through cooperative civic networks, where autonomy, dignity, and trust can control and the largest economy."
     }

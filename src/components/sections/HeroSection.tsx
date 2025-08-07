@@ -4,16 +4,16 @@ import { GeometricPattern } from "@/components/ui/geometric-pattern";
 
 export const HeroSection = () => {
   return (
-    <section id="hero" className="section bg-gradient-section">
+    <section id="hero" className="pt-4  bg-[#fff8ef]">
       <div className="container">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <ScrollReveal animation="fade-up">
-            <div className="space-y-6">
+            <div className="">
               <h1 className="heading-xl text-foreground">
                 Architects of Dignity for{" "}
                 <span className="text-brand-orange">Rural Bharat</span>
               </h1>
-              <p className="body-lg text-muted-foreground max-w-xl">
+              <p className="body-lg text-muted-foreground my-4 max-w-xl">
                 Laying digital foundations for a sovereign, decentralised, and enduring civilisation.
               </p>
               <Button 

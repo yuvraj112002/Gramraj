@@ -7,7 +7,8 @@ import { GeometricPattern } from "@/components/ui/geometric-pattern";
 
 export const ContactSection = () => {
   return (
-    <section id="contact" className="section bg-gradient-section">
+    // bg-gradient-section
+    <section id="contact" className="section bg-[#fff8ef]">
       <div className="container">
         <div className="grid lg:grid-cols-2 gap-16 items-center justify-center">
           <ScrollReveal animation="fade-up">
