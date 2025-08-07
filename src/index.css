@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 /* Gramraj Design System - Inspired by rural dignity and growth */
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 
 @layer base {
   :root {

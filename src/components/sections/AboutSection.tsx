@@ -14,14 +14,15 @@ export const AboutSection = () => {
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <ScrollReveal animation="fade-up" delay={200}>
-            <div className="relative">
-              <img 
-                src={ruralLandscape} 
-                alt="Rural landscape with farmers in field"
-                className="rounded-2xl shadow-lg w-full h-auto"
-              />
-           
-            </div>
+            <ScrollReveal animation="fade-up" delay={200}>
+              <div className="relative w-full h-48 sm:h-64 md:h-80 lg:h-[40rem] overflow-hidden rounded-2xl shadow-lg">
+                <img
+                  src="banner.jpg"
+                  alt="Rural landscape with farmers in field"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </ScrollReveal>
           </ScrollReveal>
 
           <ScrollReveal animation="fade-up" delay={400}>
@@ -42,8 +43,14 @@ export const AboutSection = () => {
                 We innovate, deliver, integrate, sustainability, economy, and the nature-based economy.
               </p>
 
-                 <div className=" bottom-4 left-4 bg-white/90 backdrop-blur-sm rounded-lg px-4 py-2 w-[9rem]">
-                <p className="font-semibold text-brand-green">This is Gramraj</p>
+              <div className="bottom-4 left-4  backdrop-blur-sm rounded-lg px-4 py-2  flex items-center gap-2 shadow-sm flex-col">
+                <div>
+                  <img src="singleStripe.png" alt="Gramraj Logo" className="w-[5rem] h-[5rem]" />
+                </div>
+                <p className="font-semibold text-center">
+                  <span className="text-green-600 text-[3rem] font-bold">This is </span>
+                  <span className="text-orange-500 text-[3rem] font-bold">Gramraj</span>
+                </p>
               </div>
             </div>
           </ScrollReveal>

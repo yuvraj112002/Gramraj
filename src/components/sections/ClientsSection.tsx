@@ -33,7 +33,7 @@ export const ClientsSection = () => {
     <section id="clients" className="section-tight bg-[#fff8ef]">
       <div className="container">
         <ScrollReveal animation="fade-up" className="text-center mb-12">
-          <h2 className="heading-md text-foreground mb-4">OUR CLIENT</h2>
+          <h2 className="heading-md text-foreground mb-4 font-bold">OUR CLIENT</h2>
           <p className="body-base text-muted-foreground">
             Accelerating that vision to be the tools to be on. We get to let see our products.
           </p>
