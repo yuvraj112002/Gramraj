@@ -9,7 +9,7 @@ export const ContactSection = () => {
   return (
     <section id="contact" className="section bg-gradient-section">
       <div className="container">
-        <div className="grid lg:grid-cols-2 gap-16 items-start">
+        <div className="grid lg:grid-cols-2 gap-16 items-center justify-center">
           <ScrollReveal animation="fade-up">
             <div className="space-y-8">
               <div className="flex items-center gap-3">
@@ -78,11 +78,14 @@ export const ContactSection = () => {
           </ScrollReveal>
 
           <ScrollReveal animation="slide-right" delay={300}>
-            <div className="relative bg-brand-orange rounded-3xl p-12 text-white overflow-hidden">
+            <div>
+                <img src="contactRight.png" alt="" />
+            </div>
+            {/* <div className="relative bg-brand-orange rounded-3xl p-12 text-white overflow-hidden">
               <div className="relative z-10">
                 <h2 className="heading-md mb-8">Get in touch.</h2>
                 
-                {/* Decorative arrow illustration */}
+               
                 <div className="absolute bottom-8 right-8 opacity-20">
                   <svg width="120" height="120" viewBox="0 0 120 120" fill="none" className="text-white">
                     <path 
@@ -93,16 +96,17 @@ export const ContactSection = () => {
                       strokeLinejoin="round"
                     />
                   </svg>
+                  <img src="contactRight.png" alt="" />
                 </div>
               </div>
               
-              {/* Background pattern */}
+            
               <div className="absolute bottom-0 left-0 right-0 opacity-10">
                 <div className="flex justify-center">
                   <GeometricPattern />
                 </div>
               </div>
-            </div>
+            </div> */}
           </ScrollReveal>
         </div>
       </div>
